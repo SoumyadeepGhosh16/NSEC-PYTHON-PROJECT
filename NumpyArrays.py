@@ -1,0 +1,10 @@
+import numpy as np
+array_1=np.array([1,3,6,4,5])
+array_2=np.array([[1,3,7],[4,5,6]])
+array_3=np.array([[[1,3,7],[4,5,6]],[[10,11,12],[18,19,22]]])
+print(array_1.ndim)
+print(array_2.ndim)
+print(array_3.ndim)
+z=np.shape(array_3)
+print(z)
+print(array_3[1,1,2])
